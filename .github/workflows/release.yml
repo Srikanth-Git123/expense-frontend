@@ -8,5 +8,5 @@ jobs:
     uses: srikanth-123git/github-reusable-workflows/.github/workflows/release.yml@main
     with:
       project_name: expense-frontend
-      npm_install: false
+      npm_install: true
     secrets: inherit
